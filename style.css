@@ -12,7 +12,7 @@ body {
 
 @font-face {
 	font-family:icomoon;
-	src:url(icomoon.eot?#iefix) format(embedded-opentype), url(icomoon.svg#icomoon) format(svg), url(icomoon.woff) format(woff), url(icomoon.ttf) format(truetype);
+	src:url(icomoon.eot?#iefix) format('embedded-opentype'), url(icomoon.svg#icomoon) format('svg'), url(icomoon.woff) format('woff'), url(icomoon.ttf) format('truetype');
 }
 
 #container {
@@ -211,14 +211,14 @@ header {
 .about {
 	float:left;
 	margin-top:30px;
-	width:490px;
+	width:55%;
 	margin-left:20px;
 	margin-bottom:20px;
 }
 
 .about1 {
 	float:right;
-	width:300px;
+	width:35%;
 	margin:30px 20px 20px;
 }
 
@@ -227,7 +227,7 @@ header {
 	background:url(../images/photo-inner.png) no-repeat;
 	width:192px;
 	height:212px;
-	padding:22px 0 0 20px;
+	padding:10px 0 0 10px;
 }
 
 .about .photo-inner img {
@@ -238,7 +238,7 @@ header {
 	font-weight:900;
 	color:#FFF;
 	line-height:34px;
-	margin-top:8px;
+	/*margin-top:8px;*/
 }
 
 .about h3 {
@@ -1083,6 +1083,13 @@ footer .copyright,div.footer .copyright {
 	.about {
 		width:420px;
 		display:block;
+		margin-bottom: 0px;
+	}
+
+	.about1 {
+		width: 90%;
+		display:block;
+		margin-top: 0px;
 	}
 
 	.about h1 {
